@@ -5,9 +5,12 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 # Producing Image from text
 
+# Text Auto correct and Auto completion
+
 # Google Photos Image filtering 
 Google photos filtering out dancing or any other actions 
 grouping people of similar faces
+
 
 
 
