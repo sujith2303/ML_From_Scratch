@@ -5,6 +5,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 # Dailog Summerizer
 
+# Language Conversion
+
 # Producing Image from text
 
 # Text Auto correct and Auto completion
