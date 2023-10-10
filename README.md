@@ -3,6 +3,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 # Filler word removal
 
+# Dailog Summerizer
+
 # Producing Image from text
 
 # Text Auto correct and Auto completion
