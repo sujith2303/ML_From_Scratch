@@ -3,6 +3,12 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Filler word removal
 
+## Background noise removal
+
+## Trigger word detector
+
+## Dates Translation
+
 ## Dailog Summerizer
 
 ## Language Conversion
