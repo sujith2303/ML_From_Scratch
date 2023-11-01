@@ -3,6 +3,10 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Filler word removal
 
+## Voice assistant 
+
+## Voice assistant used in icici like speaking the query and the bot transfers call to the relevant team
+
 ## Background noise removal
 
 ## Trigger word detector
