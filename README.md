@@ -5,6 +5,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Voice assistant 
 
+## Resume Processing using NER
+
 ## Voice assistant used in icici like speaking the query and the bot transfers call to the relevant team
 
 ## Background noise removal
