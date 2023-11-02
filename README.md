@@ -7,6 +7,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Resume Processing using NER
 
+## Autofill detils in resume(like workday)
+
 ## Voice assistant used in icici like speaking the query and the bot transfers call to the relevant team
 
 ## Background noise removal
