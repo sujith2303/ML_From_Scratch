@@ -3,6 +3,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Filler word removal
 
+## Code completion using causal Language Modelling
+
 ## Video caption generator
 By this we can reduce the space required to store an image. we can just store the sequence and the ai model automatically produces the images
 
