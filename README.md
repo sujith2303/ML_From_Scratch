@@ -3,6 +3,8 @@ This course is designed to make machine learning accessible to anyone with a bas
 
 ## Filler word removal
 
+## Next Word predictor of custom text (Whatsapp text)
+
 ## Code completion using causal Language Modelling
 
 ## Video caption generator
