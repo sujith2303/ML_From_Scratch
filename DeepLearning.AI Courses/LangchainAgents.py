@@ -78,4 +78,26 @@ chain = simple_chain | model | output_parser
 print(simple_chain.invoke({"cricketer_name":"MS Dhoni"}))
 print(chain.invoke({"cricketer_name":"MS Dhoni"}))
 
+from langchain.vectorstores import DocArrayInMemorySearch
+from langchain.Embeddings import OpenAIEmbeddings
 
+vectorstore = DocArrayInMemorySearch.from_texts( 
+    ["harrison worked at kensho", "bears like to eat honey"],
+    embedding=OpenAIEmbeddings()
+)
+print(vectorstore.similarity_search('ken'))
+retriever = vectorstore.as_retriever()
+
+retriever.get_relevant_documents("where did harrison work?")
+
+template = """Answer to the following questions only using the below context:
+{context}
+Question: {question} 
+"""
+from langchain.schema.runnable import RunnableMap
+runnable_map = RunnableMap(
+    {
+        "context": lambda x: retriever.get_relevant_documents(x['question']),
+        "question": lambda x:x['question']
+    }
+) | prompt | model | output_parser
