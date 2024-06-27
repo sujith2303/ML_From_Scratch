@@ -1,3 +1,5 @@
+## Open AI Function Calling
+
 import os
 import openai
 from dotenv import load_dotenv, find_dotenv
@@ -59,3 +61,7 @@ response = openai.ChatCompletion.create(
 )
 
 print(response)
+
+
+
+## Langchain Expression Language (LCEL)
