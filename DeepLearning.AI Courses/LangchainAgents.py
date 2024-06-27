@@ -65,3 +65,17 @@ print(response)
 
 
 ## Langchain Expression Language (LCEL)
+
+from langchain.prompts import ChatPromptTemplate
+from langchain.models import ChatOpenAI
+from langchain.schema.output_parser import StrOutputParser
+
+simple_chain = ChatPromptTemplate("Hello Act as a {cricketer_name}")
+model = ChatOpenAI()
+output_parser = StrOutputParser()
+
+chain = simple_chain | model | output_parser
+print(simple_chain.invoke({"cricketer_name":"MS Dhoni"}))
+print(chain.invoke({"cricketer_name":"MS Dhoni"}))
+
+
