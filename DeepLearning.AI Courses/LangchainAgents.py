@@ -70,7 +70,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.schema.output_parser import StrOutputParser
 
-simple_chain = ChatPromptTemplate("Hello Act as a {cricketer_name}")
+simple_chain = ChatPromptTemplate.from_template("Hello Act as a {cricketer_name}")
 model = ChatOpenAI()
 output_parser = StrOutputParser()
 
