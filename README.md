@@ -1,6 +1,10 @@
 # ML_From_Scratch
 This course is designed to make machine learning accessible to anyone with a basic understanding of mathematics. This course offers a highly interactive learning experience, incorporating real-life programming exercises in basic Python. It has the potential to transform beginners into experts, as it covers everything from the ground up.
 
+## Generate Summaries of zoom meets
+consider the chat conversations and train a model on summarizing the chat conversations summarizing the chats.
+Understand the images in the video and then summarize accordingly by providing graphs etc..,
+
 ## Filler word removal
 
 ## Next Word predictor of custom text (Whatsapp text)
