@@ -4,6 +4,7 @@ This course is designed to make machine learning accessible to anyone with a bas
 ## Generate Summaries of zoom meets
 consider the chat conversations and train a model on summarizing the chat conversations summarizing the chats.
 Understand the images in the video and then summarize accordingly by providing graphs etc..,
+Add video query model to query from the videos
 
 ## Filler word removal
 
